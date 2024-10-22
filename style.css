@@ -1,0 +1,36 @@
+.in1{
+    display: flex;
+    justify-content: center;
+}
+.in1 input{
+    padding: 15px 90px 7px 75px;
+    color: aliceblue;
+    background-color: darkslategray;
+    border-radius: 4px;
+    width: 50px;
+    text-align: right;
+}
+.butchar{
+    padding: 5px;
+    border: 3px,solid,black;
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    border-radius: 4px;
+    width: 50px;
+}
+.butsym{
+    padding: 5px;
+    border: 3px,solid,black;
+    color: aliceblue;
+    background-color: indianred;
+    border-radius: 4px;
+    width: 50px;
+}
+.butnum{
+    padding: 5px;
+    border: 3px,solid,black;
+    color: aliceblue;
+    background-color: darkgrey;
+    border-radius: 4px;
+    width: 50px;
+}
