@@ -3,7 +3,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .in1{
@@ -12,58 +12,57 @@
     height: 100vh; /*to set in center*/
     justify-content: center; /*to align horizontally center*/
 }
-.calc{
+.calc1{
     background-image: none;
     background-color: darkgray;
     padding: 20px;
     margin: 5px;
     border-radius: 10px;
 }
+.calc2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 #display{
-    padding: 15px 50px 7px 65px;
     background-image: none;
     color: aliceblue;
     background-color: darkslategray;
     border-radius: 4px;
-    width: 100px;
+    width: 100%;
+    padding: 7px 0 7px 0;
     text-align: right;
+    font-size: 25px;
+}
+button{
+    border-radius: 4px;
+    background-image: none;
+    border: 3px solid black;
+    color: aliceblue;
+    height: 50px;
+    width: 80px;
 }
 .butchar{
     padding: 10px;
-    background-image: none;
-    border: 3px,solid,black;
-    color: aliceblue;
     background-color: darkgoldenrod;
-    border-radius: 4px;
-    width: 50px;
+    
 }
 .butchar:hover{
-    font-size: 18px;
+    font-size: 25px;
     background-color: darksalmon;
 }
 .butsym{
     padding: 10px;
-    background-image: none;
-    border: 3px,solid,black;
-    color: aliceblue;
     background-color: indianred;
-    border-radius: 4px;
-    width: 50px;
 }
 .butsym:hover{
-    font-size: 18px;
+    font-size: 25px;
     background-color: darksalmon;
 }
 .butnum{
     padding: 10px;
-    background-image: none;
-    border: 3px,solid,black;
-    color: aliceblue;
     background-color: darkgrey;
-    border-radius: 4px;
-    width: 50px;
 }
 .butnum:hover{
-    font-size: 18px;
+    font-size: 25px;
     background-color: darksalmon;
 }
