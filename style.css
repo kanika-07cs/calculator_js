@@ -2,13 +2,15 @@
     background-image: url("starry-night-wallpapers.jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    cursor: pointer;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .in1{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;  /*to align vertically center by specifing height*/
+    height: 100vh; /*to set in center*/
+    justify-content: center; /*to align horizontally center*/
 }
 .calc{
     background-image: none;
@@ -17,13 +19,13 @@
     margin: 5px;
     border-radius: 10px;
 }
-.in1 input{
-    padding: 15px 90px 7px 75px;
+#display{
+    padding: 15px 50px 7px 65px;
     background-image: none;
     color: aliceblue;
     background-color: darkslategray;
     border-radius: 4px;
-    width: 50px;
+    width: 100px;
     text-align: right;
 }
 .butchar{
@@ -35,6 +37,10 @@
     border-radius: 4px;
     width: 50px;
 }
+.butchar:hover{
+    font-size: 18px;
+    background-color: darksalmon;
+}
 .butsym{
     padding: 10px;
     background-image: none;
@@ -44,6 +50,10 @@
     border-radius: 4px;
     width: 50px;
 }
+.butsym:hover{
+    font-size: 18px;
+    background-color: darksalmon;
+}
 .butnum{
     padding: 10px;
     background-image: none;
@@ -52,4 +62,8 @@
     background-color: darkgrey;
     border-radius: 4px;
     width: 50px;
+}
+.butnum:hover{
+    font-size: 18px;
+    background-color: darksalmon;
 }

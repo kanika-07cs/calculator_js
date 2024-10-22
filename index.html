@@ -10,41 +10,44 @@
     <div class="in1">
         <div class="calc">
         <form>
-        <input type="text">
+        <input id="display" type="text" readonly>
         <table>
             <tr>
-                    <td><button class="butchar">AC</button></td>
-                    <td><button class="butchar">Del</button></td>
-                    <td><button class="butsym">%</button></td>
-                    <td><button class="butsym">/</button></th>
+                    <td><button class="butchar" onclick="clearAll()">AC</button></td>
+                    <td><button class="butchar" onclick="clear()">Del</button></td>
+                    <td><button class="butsym" onclick="append('%')">%</button></td>
+                    <td><button class="butsym" onclick="append('/')">/</button></th>
             </tr>
             <tr>
-                    <td><button class="butnum">7</button></td>
-                    <td><button class="butnum">8</button></td>
-                    <td><button class="butnum">9</button></td>
-                    <td><button class="butsym">X</button></td>
+                    <td><button class="butnum" onclick="append('7')">7</button></td>
+                    <td><button class="butnum" onclick="append('8')">8</button></td>
+                    <td><button class="butnum" onclick="append('9')">9</button></td>
+                    <td><button class="butsym" onclick="append('X')">X</button></td>
             </tr>
             <tr>
-                    <td><button class="butnum">4</button></td>
-                    <td><button class="butnum">5</button></td>
-                    <td><button class="butnum">6</button></td>
-                    <td><button class="butsym">+</button></td>
+                    <td><button class="butnum" onclick="append('4')">4</button></td>
+                    <td><button class="butnum" onclick="append('5')">5</button></td>
+                    <td><button class="butnum" onclick="append('6')">6</button></td>
+                    <td><button class="butsym" onclick="append('+')">+</button></td>
             </tr>
             <tr>
-                    <td><button class="butnum">1</button></td>
-                    <td><button class="butnum">2</button></td>
-                    <td><button class="butnum">3</button></td>
-                    <td><button class="butsym">-</button></td>
+                    <td><button class="butnum" onclick="append('1')">1</button></td>
+                    <td><button class="butnum" onclick="append('2')">2</button></td>
+                    <td><button class="butnum" onclick="append('3')">3</button></td>
+                    <td><button class="butsym" onclick="append('-')">-</button></td>
             </tr>
             <tr>
-                    <td><button class="butnum">0</button></td>
-                    <td><button class="butnum">00</button></td>
-                    <td><button class="butnum">.</button></td>
-                    <td><button class="butsym">=</button></td>
+                    <td><button class="butnum" onclick="append('0')">0</button></td>
+                    <td><button class="butnum" onclick="append('00')">00</button></td>
+                    <td><button class="butnum" onclick="append('.')">.</button></td>
+                    <td><button class="butsym" onclick="calculate()">=</button></td>
             </tr>
     </table>
 </form>
 </div>
 </div>
+<script src="index.js">
+        //
+</script>
 </body>
 </html>
