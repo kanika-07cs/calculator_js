@@ -1,9 +1,25 @@
+*{
+    background-image: url("starry-night-wallpapers.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .in1{
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+.calc{
+    background-image: none;
+    background-color: darkgray;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
 }
 .in1 input{
     padding: 15px 90px 7px 75px;
+    background-image: none;
     color: aliceblue;
     background-color: darkslategray;
     border-radius: 4px;
@@ -11,7 +27,8 @@
     text-align: right;
 }
 .butchar{
-    padding: 5px;
+    padding: 10px;
+    background-image: none;
     border: 3px,solid,black;
     color: aliceblue;
     background-color: darkgoldenrod;
@@ -19,7 +36,8 @@
     width: 50px;
 }
 .butsym{
-    padding: 5px;
+    padding: 10px;
+    background-image: none;
     border: 3px,solid,black;
     color: aliceblue;
     background-color: indianred;
@@ -27,7 +45,8 @@
     width: 50px;
 }
 .butnum{
-    padding: 5px;
+    padding: 10px;
+    background-image: none;
     border: 3px,solid,black;
     color: aliceblue;
     background-color: darkgrey;
