@@ -1,5 +1,5 @@
 *{
-    background-image: url("starry-night-wallpapers.jpg");
+    background-image: url("seamless-background-with-simple-icons.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -14,7 +14,7 @@
 }
 .calc1{
     background-image: none;
-    background-color: darkgray;
+    background-color: rgb(38, 36, 36);
     padding: 20px;
     margin: 5px;
     border-radius: 10px;
@@ -34,7 +34,7 @@
     font-size: 25px;
 }
 button{
-    border-radius: 4px;
+    border-radius: 8px;
     background-image: none;
     border: 3px solid black;
     color: aliceblue;
