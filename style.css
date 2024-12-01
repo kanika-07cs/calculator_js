@@ -3,7 +3,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .in1{
@@ -29,16 +29,16 @@
     background-color: darkslategray;
     border-radius: 4px;
     width: 100%;
-    padding: 7px 0 7px 0;
+    padding: 15px 0;
     text-align: right;
     font-size: 25px;
 }
 button{
     border-radius: 8px;
     background-image: none;
-    border: 3px solid black;
+    border-width: 2px;
     color: aliceblue;
-    height: 50px;
+    height: 75px;
     width: 80px;
 }
 .butchar{
@@ -47,7 +47,7 @@ button{
     
 }
 .butchar:hover{
-    font-size: 25px;
+    font-size: 30px;
     background-color: darksalmon;
 }
 .butsym{
@@ -55,7 +55,7 @@ button{
     background-color: indianred;
 }
 .butsym:hover{
-    font-size: 25px;
+    font-size: 30px;
     background-color: darksalmon;
 }
 .butnum{
@@ -63,6 +63,6 @@ button{
     background-color: darkgrey;
 }
 .butnum:hover{
-    font-size: 25px;
+    font-size: 30px;
     background-color: darksalmon;
 }
